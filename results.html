@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>E-Voting</title>
+
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<!--<script src="https://code.jquery/jquery-3.1.0.min.js"> </script>-->
+	<script type="text/javascript" src="js/voting.js"></script>
+</head>
+<body style="">
+ <nav class="navbar navbar-default ">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#" style="">e-Voting System </a>
+        </div>
+        
+      </div>
+    </nav>
+    
+     <div class="container" style="">
+         <a  href="voting.html" style="margin-left:335px;font-family:georgia;font-size:20px; text-decoration:none;color:black;" id="vote1" class="col-md-offset-0">Voting Page </a>
+          <a  href="results.html" style="margin-left:100px;font-family:georgia;font-size:20px;text-decoration:none;color:black;" id="result1" class="col-md-offset-1" >Result Page </a>
+          <a  href="apply.html" style="margin-left:;font-family:georgian;font-size:20px;text-decoration:none;color:black;" id="result1" class="col-md-offset-1">Apply Application </a>
+          <a  href="index.html" style="margin-left:100px;font-family:georgia;font-size:15px;text-decoration:none;color:darkblue;font-weight:bold;" id="logout">Log out</a>
+          <h4 style="float:left; font-weight:bold; font-family:georgia;color:darkblue;"> Election officical results</h4>
+        </div>
+
+
+        <!-- write a UI code for display result of vote -->
+        <div class="container my-5">
+          <h1 class="text-center">Voting Results</h1>
+          <hr>
+          <div class="row">
+            <div class="col-sm-4">
+              <div class="card bg-success text-white">
+                <div class="card-header">Candidate A</div>
+                <div class="card-body">
+                  <h5 class="card-title">Votes: 200</h5>
+                  <p class="card-text">Percentage: 40%</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="card bg-info text-white">
+                <div class="card-header">Candidate B</div>
+                <div class="card-body">
+                  <h5 class="card-title">Votes: 150</h5>
+                  <p class="card-text">Percentage: 30%</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="card bg-danger text-white">
+                <div class="card-header">Candidate C</div>
+                <div class="card-body">
+                  <h5 class="card-title">Votes: 100</h5>
+                  <p class="card-text">Percentage: 20%</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+       <div class="container">
+        <button class="btn btn-danger" id="download"> Download Results PDF</button>
+       </div>
+         
+
+
+
+
+    <!-- <footer class="footer text-center" style="padding:10px;background:;">
+       <h3 style="color:black;font-size:20px;color:lightgrey;">Election Results.&copy 2017 <small> Powered by ICT Club.</small>    </h3>          
+      </footer> -->
+</body>
+</html>
